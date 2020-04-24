@@ -70,15 +70,15 @@ let displayAbsoluteValue = function (number) {
 
 //Exercice 15 : Afficher les valeurs absolues de plusieurs nombres.
 let displayAbsoluteValues = function (numbersArray) {
-  return Math.abs(numbersArray);
+  return numbersArray.map(Math.abs, numbersArray);
 }
 
 //Exercice 16 : Calculer la surface d'un cercle en fonction de son rayon. L'arondir à l'entier le plus proche.
 let calculateArea = function (radius) {
-  return 'A compléter';
+  return Math.round(Math.PI * radius * radius);
 }
 
 //Exercice 17 : Calculer l'hypothènuse d\'un triangle rectangle. Arrondir à l'entier inférieur.
 let calculateHypotenuse = function (a, b) {
-  return 'A compléter';
+  return Math.floor(Math.hypot(a, b));
 }
