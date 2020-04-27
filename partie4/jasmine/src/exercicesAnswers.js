@@ -2,6 +2,7 @@
 let createArray = function (array) {
   array = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche']
   return array;
+  /* OU return ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche'] */
 }
 
 //Exercice 2 : Retouner le 3ème élément du tableau days', function() {
@@ -18,6 +19,8 @@ let returnThirdIndex = function (array) {
 let changeSecondElement = function (array) {
   array.splice(1, 1, 'php');
   return array;
+  /* OU array[1] = 'php';
+  return array; */
 }
 
 //Exercice 5 : Ajouter ruby et python à la fin du tableau languages.', function() {
@@ -36,6 +39,8 @@ let addAtFirst = function (array) {
 let removeFirstElement = function (array) {
   array.splice(0, 1)
   return array;
+  /* array.shift()
+  return array */
 }
 
 //Exercice 8 : Supprimer le dernier élément du tableau languages.', function() {
@@ -55,25 +60,28 @@ let createPerson = function () {
 
 //Exercice 10 : Retourner la valeur de l\'index nom du tableau person.', function() {
 let returnName = function (array) {
-  return array[name];
+  return array["name"];
 }
 
 //Exercice 11 : Stocker tous les index du tableau person dans des variables séparées et les retourner dans une même phrase de type : "Bonjour, je suis Jean. J\'ai 45 ans et j\'habite Paris."', function() {
 let returnSentence = function (array) {
-  return 'A compléter';
+    let name = array["name"];
+    let age = array["age"];
+    let city = array["city"];
+    return `Bonjour, je suis ${name}. J'ai ${age} ans et j'habite ${city}.`;
 }
 
 //Exercice 12 : Transformer la variable string en tableau.', function() {
 let returnArray = function (string) {
-  return 'A compléter';
+  return string.split(',');
 }
 
 //Exercice 13 : Trier le tableau array.', function() {
 let sortArray = function (array) {
-  return 'A compléter';
+  return array.sort();
 }
 
 //Exercice 14 : Transformer le tableau array en chaîne de caractères', function() {
 let returnString = function (array) {
-  return 'A compléter';
+  return array.join(',');
 }
