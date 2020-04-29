@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=width-device, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Exercice 3</title>
+    <style>
+        .danger{
+            font-weight: 500;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Exercice 3</h1>
+    <p>Créer un formulaire contenant un champ nom, un champ mail et un champ âge.</p>
+    <p>Si les champs ne correspondent pas à une regex, afficher un message d'erreur en rouge sous le champs dès que l'on
+        entre une valeur.</p>
+
+    <form action="" method="post">
+        <label for="name">Nom :</label>
+        <input type="text" id="name">
+
+        <label for="age">Âge :</label>
+        <input type="text" id="age">
+
+        <label for="email">Mail :</label>
+        <input type="text" id="email">
+
+        <button type="submit">Envoyer !</button>
+        <!-- <button id="button" onclick="alert('bouton cliqué')">Envoyer !</button> -->
+    </form>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
+
+<!-- 
+    correction AMADOU
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 3</title>
+    <style>
+        .danger{
+            font-weight: 500;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        <label for="name">Nom</label>
+        <input type="text" id="name">
+        <label for="age">Age</label>
+        <input type="text" id="age">
+        <label for="email">Email</label>
+        <input type="text" id="email">
+        <button type="submit">Envoyer</button>
+    </form>
+    <script src="assets/js/form.js"></script>
+</body>
+</html>
+ -->
+
+ <!--
+    correction ULYSSE
+    <h2>exercice 3</h2>
+    <form>
+        <label for="nom">nom :</label>
+        <input type="text" id="nom" onblur="verifierA();">
+        <p id="errorNom"></p>
+
+        <label for="mail">mail :</label>
+        <input type="text" id="mail" onblur="verifierB();">
+        <p id="errorMail"></p>
+
+        <label for="age">age :</label>
+        <input type="text" id="age" onblur="verifierC();">
+        <p id="errorAge"></p>
+
+        <input type="button" id="bouton2" value="valider">
+    </form>
+ -->

@@ -1,13 +1,35 @@
+body {
+    background-color: teal;
+}
 h1 {
-    font-size: 50px;
-    color: red;
+    font-size: 7em;
+    color: seashell;
     text-align: center;
     font-weight: bold;
     align-self: center;
 }
 h2 {
-    color: royalblue;
+    color: seashell;
+    text-align: center;
 }
 b {
     text-decoration: underline;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+li {
+    padding: 0.2em;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+div {
+    background-color: rgb(139, 175, 175);
+    border: 3px dashed teal;
+    border-radius: 25px;
+    margin: 3em 20em;
+    padding: 1em;
 }
