@@ -1,0 +1,50 @@
+body {
+    background-color: rosybrown;
+    color: seashell;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+p {
+    text-align: center;
+}
+form {
+    width: 35%;
+    margin: 5em auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid seashell;
+    border-radius: 5px;
+}
+span {
+    margin-bottom: 1em;
+}
+label {
+    margin: O.5em;
+}
+input {
+    width: 90%;
+    height: 2em;
+    padding: 5px;
+    border: 1px solid snow;
+    border-radius: 5px;
+}
+input:not(:last-of-type) {
+    margin-bottom: 1.5em;
+}
+
+button {
+    width: 10em;
+    height: 3em;
+    margin: 2em;
+    padding: 10px;
+    background-color: seashell;
+    border: transparent;
+    border-radius: 5px;
+    color: rosybrown;
+    font-weight: bold;
+}

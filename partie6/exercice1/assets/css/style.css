@@ -1,0 +1,23 @@
+body {
+    background-color: rosybrown;
+    color: seashell;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+p {
+    text-align: center;
+}
+table {
+    margin: 3em auto;
+}
+th {
+    text-transform: uppercase;
+}
+table, th, td {
+    border: 1px solid seashell;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}

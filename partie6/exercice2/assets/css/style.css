@@ -1,0 +1,17 @@
+body {
+    background-color: rosybrown;
+    color: seashell;
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 1em;
+}
+p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+}
