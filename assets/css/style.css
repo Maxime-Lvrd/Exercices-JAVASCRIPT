@@ -1,35 +1,79 @@
 body {
-    background-color: teal;
+    background-color: black;
+}
+.nav {
+    background-color: black;
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    border: none;
+    width: 100%;
+}
+.nav li a {
+    color: seashell;
+}
+.nav-link:hover {
+    color: #F7DF1E;
+    border-color: #F7DF1E !important; 
 }
 h1 {
-    font-size: 7em;
+    font-size: 6em;
     color: seashell;
     text-align: center;
     font-weight: bold;
     align-self: center;
+    text-transform: uppercase;
 }
-h2 {
-    color: seashell;
+i {
+    color: #F7DF1E;
+}
+h2, h3 {
+    color: black;
     text-align: center;
+    text-transform: uppercase;
 }
 b {
     text-decoration: underline;
 }
-ul {
+div ul {
     list-style-type: none;
     text-align: center;
+    padding: 0;
+    margin-top: 1em;
 }
 li {
     padding: 0.2em;
 }
 a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 div {
-    background-color: rgb(139, 175, 175);
-    border: 3px dashed teal;
-    border-radius: 25px;
-    margin: 3em;
+    background-color: #F7DF1E;
+    width: 60%;
     padding: 1em;
+    padding-top: 48px;
+    margin-bottom: 3em;
 }
+div ul li a:hover {
+    color: seashell;
+}
+
+/* Animation */
+h1 {
+    animation-duration: 5s;
+    animation-name: glissement;
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes glissement {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

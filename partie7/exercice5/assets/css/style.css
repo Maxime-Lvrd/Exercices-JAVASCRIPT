@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(221, 217, 200);
+    color: rgb(107, 100, 95);
+    text-align: center;
+  }
+  h1 {
+    text-transform: uppercase;
+  }
+  h2, p {
+    font-size: 1em;
+    line-height: 0.2em;
+  }
+p {
+    text-align: left;
+}
