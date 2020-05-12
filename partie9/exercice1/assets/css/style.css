@@ -1,0 +1,25 @@
+body {
+    background-color: #77969ec0;
+    color: seashell;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+p {
+    text-align: center;
+}
+.dropdown-toggle {
+    background-color: #77969ec0;
+}
+.select-box {
+    background-color: #77969ec0;
+    border: 1px solid #77969ec0;
+}
+i {
+    font-size: 3em;
+    margin: 5px;
+}
+.active {
+    color: #8fbfcac0;
+}
